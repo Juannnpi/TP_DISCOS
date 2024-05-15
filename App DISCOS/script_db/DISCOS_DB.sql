@@ -49,7 +49,7 @@ CREATE TABLE [dbo].[DISCOS](
 	[UrlImagenTapa] [varchar](200) NULL,
 	[IdEstilo] [int] NULL,
 	[IdTipoEdicion] [int] NULL,
-	[Activo] [int] NULL,
+	[Activo] [bit] NOT NULL,
  CONSTRAINT [PK_DISCOS] PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
